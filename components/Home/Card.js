@@ -1,6 +1,6 @@
 import { Flex, Heading, Text, Image, Spacer } from "@chakra-ui/react";
 
-const Card = ({imageSource}) => {
+const Card = ({ imageSource }) => {
   return (
     <Flex
       direction="column"
@@ -9,6 +9,7 @@ const Card = ({imageSource}) => {
       border="1px solid #26282c"
       m="2px"
       textAlign="center"
+      _hover={{ borderColor: "#3182ce" }}
     >
       <Image
         alt="alt text"
@@ -31,7 +32,13 @@ const Card = ({imageSource}) => {
       <Heading as="h2" fontSize="2.986rem" lineHeight="1.5" fontWeight="700">
         Lorem ipsum dolor sit.
       </Heading>
-      <Text mt="4" fontSize="1.44rem" lineHeight="1.5" fontWeight="400" color="#d1d1d3">
+      <Text
+        mt="4"
+        fontSize="1.44rem"
+        lineHeight="1.5"
+        fontWeight="400"
+        color="#d1d1d3"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </Text>
     </Flex>
