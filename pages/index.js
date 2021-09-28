@@ -6,7 +6,7 @@ import Row from "../components/Home/Row";
 
 export default function Home() {
   return (
-    <Flex direction="column" minH="100vh" maxW="100vw">
+    <Flex direction="column" minH="100vh" maxW="100vw" >
       <Head>
         <title>Yellowstone | Home</title>
         <meta
@@ -20,16 +20,16 @@ export default function Home() {
         <Card imageSource="/img/buffalo.jpg" />
         <Card imageSource="/img/erupt.jpg" />
       </Flex>
-      <Row rowHeight="300px" imageSource="/img/prismatic.jpg"/>
-      <Row rowHeight="480px" imageSource="/img/spring.jpg"/>
-      <Row rowHeight="480px" imageSource="/img/prettylake.webp"/>
-      <Row rowHeight="300px" imageSource="/img/people.jpg"/>
+      <Row rowHeight="300px" imageSource="/img/prismatic.jpg" contentPosition="right"/>
+      <Row rowHeight="480px" imageSource="/img/spring.jpg" contentPosition="center"/>
+      <Row rowHeight="480px" imageSource="/img/prettylake.webp" contentPosition="center"/>
+      <Row rowHeight="300px" imageSource="/img/people.jpg" contentPosition="right"/>
       <Flex>
         <Card imageSource="/img/lake.jpg" />
         <Card imageSource="/img/natgeo.webp" />
       </Flex>
-      <Row rowHeight="480px" imageSource="/img/river.jpeg"/>
-      <Row rowHeight="480px" imageSource="/img/essence.jpg"/>
+      <Row rowHeight="480px" imageSource="/img/river.jpeg" contentPosition="right"/>
+      <Row rowHeight="480px" imageSource="/img/essence.jpg" contentPosition="left"/>
     </Flex>
   );
 }

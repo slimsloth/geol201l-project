@@ -24,13 +24,14 @@ const Card = ({imageSource}) => {
         lineHeight="1.5"
         textTransform="uppercase"
         fontWeight="400"
+        color="#d1d1d3"
       >
         Lorem ipsum dolor
       </Heading>
       <Heading as="h2" fontSize="2.986rem" lineHeight="1.5" fontWeight="700">
         Lorem ipsum dolor sit.
       </Heading>
-      <Text mt="4" fontSize="1.44rem" lineHeight="1.5" fontWeight="400">
+      <Text mt="4" fontSize="1.44rem" lineHeight="1.5" fontWeight="400" color="#d1d1d3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </Text>
     </Flex>
