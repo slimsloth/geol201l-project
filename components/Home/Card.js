@@ -6,7 +6,7 @@ const Card = ({imageSource}) => {
       direction="column"
       h="551px"
       w="50%"
-      border="1px solid #1a497a"
+      border="1px solid #26282c"
       m="2px"
       textAlign="center"
     >

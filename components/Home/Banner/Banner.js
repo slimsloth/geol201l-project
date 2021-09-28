@@ -7,6 +7,7 @@ import {
   Spacer,
   Box,
 } from "@chakra-ui/react";
+import BannerCard from "./BannerCard";
 
 const Banner = () => {
   return (
@@ -67,38 +68,10 @@ const Banner = () => {
             <Link fontSize="1.2rem">View all news</Link>
           </Flex>
           <Flex justify="space-between" pt="4">
-            <Box
-              backgroundColor="#0b0d12"
-              border="1px solid #1a497a"
-              w="23%"
-              h="230px"
-            >
-              im a box
-            </Box>
-            <Box
-              backgroundColor="#0b0d12"
-              border="1px solid #1a497a"
-              w="23%"
-              h="230px"
-            >
-              im a box
-            </Box>
-            <Box
-              backgroundColor="#0b0d12"
-              border="1px solid #1a497a"
-              w="23%"
-              h="230px"
-            >
-              im a box
-            </Box>
-            <Box
-              backgroundColor="#0b0d12"
-              border="1px solid #1a497a"
-              w="23%"
-              h="230px"
-            >
-              im a box
-            </Box>
+            <BannerCard imageSrc="/img/camping.webp" />
+            <BannerCard imageSrc="/img/hiking.jpg" />
+            <BannerCard imageSrc="/img/horseback.png" />
+            <BannerCard imageSrc="/img/rafting.jpg" />
           </Flex>
         </Flex>
       </Flex>
