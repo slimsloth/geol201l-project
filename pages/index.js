@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <Flex>
+    <Flex direction="column" minH="100vh">
       <Head>
         <title>Yellowstone | Home</title>
         <meta
@@ -12,6 +12,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Heading>This is the home page</Heading>
     </Flex>
   );
 }
