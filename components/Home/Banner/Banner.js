@@ -1,12 +1,4 @@
-import {
-  Flex,
-  Image,
-  Heading,
-  Text,
-  Link,
-  Spacer,
-  Box,
-} from "@chakra-ui/react";
+import { Flex, Image, Heading, Text, Link, Spacer } from "@chakra-ui/react";
 import BannerCard from "./BannerCard";
 
 const Banner = () => {
@@ -30,6 +22,7 @@ const Banner = () => {
         <Spacer />
         <Flex direction="column" w="40%">
           <Heading
+            as="h1"
             textTransform="uppercase"
             fontSize="4.3rem"
             lineHeight="1.5"
