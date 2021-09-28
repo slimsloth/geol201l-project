@@ -4,7 +4,7 @@ import { Box } from "@chakra-ui/layout";
 
 const Layout = ({ children }) => {
   return (
-    <Box backgroundColor="#161b22" color="white">
+    <Box backgroundColor="#161b22" color="white" minH="100vh">
       <Nav />
       {children}
       <Footer />

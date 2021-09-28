@@ -1,5 +1,7 @@
 import Head from "next/head";
-import { Flex, Heading } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+import Banner from "../components/Home/Banner/Banner";
+import Card from "../components/Home/Card";
 
 export default function Home() {
   return (
@@ -12,7 +14,11 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Heading>This is the home page</Heading>
+      <Banner />
+      <Flex>
+        <Card />
+        <Card />
+      </Flex>
     </Flex>
   );
 }
