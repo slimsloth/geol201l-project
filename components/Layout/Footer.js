@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
@@ -8,8 +8,9 @@ const Footer = () => {
       color="#b6b6b8"
       p="4"
       borderTop="2px solid #26282c"
+      textAlign="center"
     >
-      This is the footer
+      <Text>&copy; 2021 Sean Mitchell</Text>
     </Flex>
   );
 };

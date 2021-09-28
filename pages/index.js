@@ -2,10 +2,11 @@ import Head from "next/head";
 import { Flex } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
 import Card from "../components/Home/Card";
+import Row from "../components/Home/Row";
 
 export default function Home() {
   return (
-    <Flex direction="column" minH="100vh">
+    <Flex direction="column" minH="100vh" maxW="100vw">
       <Head>
         <title>Yellowstone | Home</title>
         <meta
@@ -16,9 +17,19 @@ export default function Home() {
       </Head>
       <Banner />
       <Flex>
-        <Card />
-        <Card />
+        <Card imageSource="/img/buffalo.jpg" />
+        <Card imageSource="/img/erupt.jpg" />
       </Flex>
+      <Row rowHeight="300px" imageSource="/img/prismatic.jpg"/>
+      <Row rowHeight="480px" imageSource="/img/spring.jpg"/>
+      <Row rowHeight="480px" imageSource="/img/prettylake.webp"/>
+      <Row rowHeight="300px" imageSource="/img/people.jpg"/>
+      <Flex>
+        <Card imageSource="/img/lake.jpg" />
+        <Card imageSource="/img/natgeo.webp" />
+      </Flex>
+      <Row rowHeight="480px" imageSource="/img/river.jpeg"/>
+      <Row rowHeight="480px" imageSource="/img/essence.jpg"/>
     </Flex>
   );
 }

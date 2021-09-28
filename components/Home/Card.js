@@ -1,6 +1,6 @@
 import { Flex, Heading, Text, Image, Spacer } from "@chakra-ui/react";
 
-const Card = () => {
+const Card = ({imageSource}) => {
   return (
     <Flex
       direction="column"
@@ -13,7 +13,7 @@ const Card = () => {
       <Image
         alt="alt text"
         borderBottom="1px solid #2a2c30"
-        src="https://picsum.photos/800/900"
+        src={imageSource}
         objectFit="cover"
         h="65%"
       />
