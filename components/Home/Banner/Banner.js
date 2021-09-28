@@ -69,7 +69,7 @@ const Banner = () => {
           <Flex justify="space-between" pt="4">
             <Box
               backgroundColor="#0b0d12"
-              border="1px solid #26282c"
+              border="1px solid #1a497a"
               w="23%"
               h="230px"
             >
@@ -77,7 +77,7 @@ const Banner = () => {
             </Box>
             <Box
               backgroundColor="#0b0d12"
-              border="1px solid #26282c"
+              border="1px solid #1a497a"
               w="23%"
               h="230px"
             >
@@ -85,7 +85,7 @@ const Banner = () => {
             </Box>
             <Box
               backgroundColor="#0b0d12"
-              border="1px solid #26282c"
+              border="1px solid #1a497a"
               w="23%"
               h="230px"
             >
@@ -93,7 +93,7 @@ const Banner = () => {
             </Box>
             <Box
               backgroundColor="#0b0d12"
-              border="1px solid #26282c"
+              border="1px solid #1a497a"
               w="23%"
               h="230px"
             >
