@@ -29,7 +29,7 @@ const Row = ({
   }
 
   return (
-    <Flex h={rowHeight} my="2px" maxW="100vw">
+    <Flex h={rowHeight} my="2px" w="100%">
       <Image w="100vw" src={imageSource} alt="text" objectFit="cover" />
       <Flex
         direction={dir}

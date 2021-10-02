@@ -11,8 +11,6 @@ import {
   StackDivider,
 } from "@chakra-ui/react";
 import { SiGoogleearth } from "react-icons/si";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { AiOutlineClose } from "react-icons/ai";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
 const Nav = () => {
@@ -23,7 +21,7 @@ const Nav = () => {
       backgroundColor="#0b0d12"
       color="#b6b6b8"
       p={["2", "4"]}
-      w="100vw"
+      w="100%"
       borderBottom="2px solid #26282c"
       align="baseline"
       position="sticky"

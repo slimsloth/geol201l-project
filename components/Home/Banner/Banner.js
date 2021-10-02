@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <Flex
       direction="column"
-      maxW="100vw"
+      w="100%"
       h={["20vh","85vh"]}
       p="8"
       bgImage={`linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url(banner.jpg)`}

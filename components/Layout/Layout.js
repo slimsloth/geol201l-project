@@ -4,17 +4,17 @@ import { Box, Flex } from "@chakra-ui/layout";
 
 const Layout = ({ children }) => {
   return (
-    <Box
+    <Flex
       direction="column"
       backgroundColor="#161b22"
       color="white"
-      w="100vw"
       maxW="100vw"
+      w="-webkit-fit-content"
     >
       <Nav />
       {children}
       <Footer />
-    </Box>
+    </Flex>
   );
 };
 
