@@ -22,7 +22,7 @@ const Nav = () => {
       direction={["column", "row"]}
       backgroundColor="#0b0d12"
       color="#b6b6b8"
-      p={["1", "4"]}
+      p={["2", "4"]}
       w="100vw"
       borderBottom="2px solid #26282c"
       align="baseline"

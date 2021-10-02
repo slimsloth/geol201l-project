@@ -41,7 +41,7 @@ const Row = ({
       >
         <Flex direction="column" justify="center" align="center" p="4">
           <Heading
-            fontSize="1.44rem"
+            fontSize="xl"
             lineHeight="1.5"
             fontWeight="400"
             textTransform="uppercase"
@@ -49,10 +49,10 @@ const Row = ({
           >
             Lorem ipsum dolor sit amet.
           </Heading>
-          <Heading fontSize="4.3rem" lineHeight="1.5" fontWeight="700">
+          <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
             Lorem ipsum
           </Heading>
-          <Button colorScheme="blue" isFullWidth={false} w="xs">
+          <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
             Read Article
           </Button>
         </Flex>

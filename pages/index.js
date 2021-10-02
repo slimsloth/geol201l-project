@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
-      <Flex>
+      <Flex wrap={["wrap","nowrap"]}>
         <Card imageSource="/img/buffalo.jpg" />
         <Card imageSource="/img/erupt.jpg" />
       </Flex>
@@ -24,7 +24,7 @@ export default function Home() {
       <Row rowHeight="480px" imageSource="/img/spring.jpg" contentPosition="center"/>
       <Row rowHeight="480px" imageSource="/img/prettylake.webp" contentPosition="center"/>
       <Row rowHeight="300px" imageSource="/img/people.jpg" contentPosition="right"/>
-      <Flex>
+      <Flex wrap={["wrap","nowrap"]}>
         <Card imageSource="/img/lake.jpg" />
         <Card imageSource="/img/natgeo.webp" />
       </Flex>
