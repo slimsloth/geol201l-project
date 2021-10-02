@@ -1,15 +1,15 @@
 import Footer from "./Footer";
 import Nav from "./Nav";
-import { Box } from "@chakra-ui/layout";
+import { Box, Flex } from "@chakra-ui/layout";
 
 const Layout = ({ children }) => {
   return (
     <Box
+      direction="column"
       backgroundColor="#161b22"
       color="white"
-      minH="100vh"
+      w="100vw"
       maxW="100vw"
-      overflowX="clip"
     >
       <Nav />
       {children}

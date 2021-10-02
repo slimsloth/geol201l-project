@@ -6,7 +6,7 @@ import Row from "../components/Home/Row";
 
 export default function Home() {
   return (
-    <Flex direction="column" minH="100vh" maxW="100vw" >
+    <Flex direction="column" w="100vw" >
       <Head>
         <title>Yellowstone | Home</title>
         <meta

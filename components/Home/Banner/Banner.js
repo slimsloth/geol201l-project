@@ -6,7 +6,7 @@ const Banner = () => {
     <Flex
       direction="column"
       maxW="100vw"
-      h="80vh"
+      h="85vh"
       p="8"
       bgImage={`linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url(banner.jpg)`}
       bgPosition="center"
@@ -18,7 +18,7 @@ const Banner = () => {
         <Heading
           as="h1"
           textTransform="uppercase"
-          fontSize="7xl"
+          fontSize={["sm","6xl"]}
           lineHeight="1.5"
           fontWeight="700"
           mb="4"
@@ -28,18 +28,16 @@ const Banner = () => {
         <Text
           lineHeight="1.5"
           fontWeight="400"
-          fontSize="1.728rem"
+          fontSize="c"
           textShadow="0 1px transparent"
           mb="4"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
-          accumsan augue. Phasellus suscipit turpis et tortor pellentesque
-          imperdiet. Aenean sem tellus, semper sed lectus condimentum, sagittis
-          fringilla enim.
+          accumsan augue.
         </Text>
         <Link
           textDecoration="underline"
-          fontSize="1.728rem"
+          fontSize="xl"
           lineHeight="1.5"
           fontWeight="400"
         >
@@ -49,10 +47,10 @@ const Banner = () => {
       <Spacer />
       <Flex direction="column">
         <Flex align="center">
-          <Heading textTransform="uppercase" fontSize="1.44rem" mr="4">
+          <Heading textTransform="uppercase" fontSize="xl" mr="4">
             Latest News & Activities
           </Heading>
-          <Link fontSize="1.2rem">View all news</Link>
+          <Link fontSize="xl">View all news</Link>
         </Flex>
         <Flex justify="space-between" pt="4">
           <BannerCard imageSrc="/img/camping.webp" />

@@ -7,8 +7,8 @@ const BannerCard = ({ imageSrc }) => {
       backgroundColor="#0b0d12"
       border="1px solid #26282c"
       borderRadius="md"
-      w="23%"
-      h="230px"
+      w="23vw"
+      h="23vh"
       bgImage={`linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(62, 63, 64, 0.5)),url(${imageSrc})`}
       bgPosition="center"
       backgroundSize="cover"

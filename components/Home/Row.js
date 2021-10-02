@@ -52,7 +52,7 @@ const Row = ({
           <Heading fontSize="4.3rem" lineHeight="1.5" fontWeight="700">
             Lorem ipsum
           </Heading>
-          <Button colorScheme="blue" isFullWidth={false} w="sm">
+          <Button colorScheme="blue" isFullWidth={false} w="xs">
             Read Article
           </Button>
         </Flex>

@@ -5,7 +5,8 @@ const Nav = () => {
     <Flex
       backgroundColor="#0b0d12"
       color="#b6b6b8"
-      p="4"
+      p={["1","4"]}
+      w="100vw"
       borderBottom="2px solid #26282c"
       align="baseline"
       position="sticky"
