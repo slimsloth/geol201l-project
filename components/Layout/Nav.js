@@ -13,7 +13,7 @@ const Nav = () => {
       zIndex={10}
     >
       <Icon as={SiGoogleearth} mr="2" color="#009ae4"/>
-      <Heading size="md" mr="8" color="#009ae4">
+      <Heading size="md" mr="8" color="#009ae4" userSelect="none">
         Yellowstone Park
       </Heading>
       <Link href="/" mr="2">
