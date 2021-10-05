@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Flex } from "@chakra-ui/react";
+import { Flex, Button, Link, Heading } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
 import Card from "../components/Home/Card";
 import Row from "../components/Home/Row";
@@ -25,22 +25,50 @@ export default function Home() {
         rowHeight="300px"
         imageSource="/img/prismatic.jpg"
         contentPosition="right"
-      />
+      >
+        <Heading
+            fontSize="xl"
+            lineHeight="1.5"
+            fontWeight="400"
+            textTransform="uppercase"
+            color="#d1d1d3"
+          >
+            National Geographic
+          </Heading>
+          <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
+          America&apos;s National Parks
+          </Heading>
+        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
+          <Button variant="outline" colorScheme="blue" w="xs">Watch Now</Button>
+        </Link>
+      </Row>
       <Row
         rowHeight="480px"
         imageSource="/img/spring.jpg"
         contentPosition="center"
-      />
+      >
+        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
+          Read Article
+        </Button>
+      </Row>
       <Row
         rowHeight="480px"
         imageSource="/img/prettylake.webp"
         contentPosition="center"
-      />
+      >
+        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
+          Read Article
+        </Button>
+      </Row>
       <Row
         rowHeight="300px"
         imageSource="/img/people.jpg"
         contentPosition="right"
-      />
+      >
+        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
+          Read Article
+        </Button>
+      </Row>
       <Flex wrap={["wrap", "nowrap"]}>
         <Card imageSource="/img/lake.jpg" />
         <Card imageSource="/img/natgeo.webp" />
@@ -49,12 +77,20 @@ export default function Home() {
         rowHeight="480px"
         imageSource="/img/river.jpeg"
         contentPosition="right"
-      />
+      >
+        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
+          Read Article
+        </Button>
+      </Row>
       <Row
         rowHeight="480px"
         imageSource="/img/essence.jpg"
         contentPosition="left"
-      />
+      >
+        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
+          Read Article
+        </Button>
+      </Row>
     </Flex>
   );
 }

@@ -4,6 +4,7 @@ const Row = ({
   rowHeight,
   contentPosition,
   imageSource,
+  children,
   caption,
   header,
   text,
@@ -40,21 +41,7 @@ const Row = ({
         p="8"
       >
         <Flex direction="column" justify="center" align="center" p="4">
-          <Heading
-            fontSize="xl"
-            lineHeight="1.5"
-            fontWeight="400"
-            textTransform="uppercase"
-            color="#d1d1d3"
-          >
-            Lorem ipsum dolor sit amet.
-          </Heading>
-          <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
-            Lorem ipsum
-          </Heading>
-          <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
-            Read Article
-          </Button>
+          {children}
         </Flex>
       </Flex>
     </Flex>
