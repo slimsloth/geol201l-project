@@ -1,6 +1,6 @@
-import { Flex, Heading, Text, Image, Spacer } from "@chakra-ui/react";
+import { Flex, Heading, Text, Image } from "@chakra-ui/react";
 
-const Card = ({ imageSource }) => {
+const Card = ({ imageSource, children }) => {
   return (
     <Flex
       direction="column"
@@ -18,34 +18,7 @@ const Card = ({ imageSource }) => {
         objectFit="cover"
         h={["50%","65%"]}
       />
-      <Heading
-        mt="4"
-        as="h3"
-        fontSize={["md", "xl"]}
-        lineHeight="1.5"
-        textTransform="uppercase"
-        fontWeight="400"
-        color="#d1d1d3"
-      >
-        Lorem ipsum dolor
-      </Heading>
-      <Heading
-        as="h2"
-        fontSize={["2xl", "4xl"]}
-        lineHeight="1.5"
-        fontWeight="700"
-      >
-        Lorem ipsum dolor sit.
-      </Heading>
-      <Text
-        mt="4"
-        fontSize={["md", "lg"]}
-        lineHeight="1.5"
-        fontWeight="400"
-        color="#d1d1d3"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </Text>
+      {children}
     </Flex>
   );
 };

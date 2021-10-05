@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Flex, Button, Link, Heading } from "@chakra-ui/react";
+import { Flex, Button, Link, Heading, Text } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
 import Card from "../components/Home/Card";
 import Row from "../components/Home/Row";
@@ -18,8 +18,66 @@ export default function Home() {
       </Head>
       <Banner />
       <Flex wrap={["wrap", "nowrap"]}>
-        <Card imageSource="/img/buffalo.jpg" />
-        <Card imageSource="/img/erupt.jpg" />
+        <Card imageSource="/img/buffalo.jpg">
+          <Heading
+            mt="4"
+            as="h3"
+            fontSize={["md", "xl"]}
+            lineHeight="1.5"
+            textTransform="uppercase"
+            fontWeight="400"
+            color="#d1d1d3"
+          >
+            Short Article
+          </Heading>
+          <Heading
+            as="h2"
+            fontSize={["2xl", "4xl"]}
+            lineHeight="1.5"
+            fontWeight="700"
+          >
+            Wildlife of Yellowstone
+          </Heading>
+          <Text
+            mt="4"
+            fontSize={["md", "lg"]}
+            lineHeight="1.5"
+            fontWeight="400"
+            color="#d1d1d3"
+          >
+            Learn about the wildlife in the park.
+          </Text>
+        </Card>
+        <Card imageSource="/img/erupt.jpg">
+          <Heading
+            mt="4"
+            as="h3"
+            fontSize={["md", "xl"]}
+            lineHeight="1.5"
+            textTransform="uppercase"
+            fontWeight="400"
+            color="#d1d1d3"
+          >
+            Park Essentials
+          </Heading>
+          <Heading
+            as="h2"
+            fontSize={["2xl", "4xl"]}
+            lineHeight="1.5"
+            fontWeight="700"
+          >
+            Geysers of Yellowstone
+          </Heading>
+          <Text
+            mt="4"
+            fontSize={["md", "lg"]}
+            lineHeight="1.5"
+            fontWeight="400"
+            color="#d1d1d3"
+          >
+            Read up on how geysers formed in the park.
+          </Text>
+        </Card>
       </Flex>
       <Row
         rowHeight="300px"
@@ -27,19 +85,21 @@ export default function Home() {
         contentPosition="right"
       >
         <Heading
-            fontSize="xl"
-            lineHeight="1.5"
-            fontWeight="400"
-            textTransform="uppercase"
-            color="#d1d1d3"
-          >
-            National Geographic
-          </Heading>
-          <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
+          fontSize="xl"
+          lineHeight="1.5"
+          fontWeight="400"
+          textTransform="uppercase"
+          color="#d1d1d3"
+        >
+          National Geographic
+        </Heading>
+        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
           America&apos;s National Parks
-          </Heading>
+        </Heading>
         <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button variant="outline" colorScheme="blue" w="xs">Watch Now</Button>
+          <Button variant="outline" colorScheme="blue" w="xs">
+            Watch Now
+          </Button>
         </Link>
       </Row>
       <Row
@@ -47,49 +107,177 @@ export default function Home() {
         imageSource="/img/spring.jpg"
         contentPosition="center"
       >
-        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
-          Read Article
-        </Button>
+        <Heading
+          fontSize="xl"
+          lineHeight="1.5"
+          fontWeight="400"
+          textTransform="uppercase"
+          color="#d1d1d3"
+        >
+          The Yellowstone Super Volcano
+        </Heading>
+        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
+          Yellowstone Caldera
+        </Heading>
+        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
+          <Button variant="outline" colorScheme="blue" w="xs">
+            Read Article
+          </Button>
+        </Link>
       </Row>
       <Row
         rowHeight="480px"
         imageSource="/img/prettylake.webp"
         contentPosition="center"
       >
-        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
-          Read Article
-        </Button>
+        <Heading
+          fontSize="xl"
+          lineHeight="1.5"
+          fontWeight="400"
+          textTransform="uppercase"
+          color="#d1d1d3"
+        >
+          Park Biology
+        </Heading>
+        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
+          Flora &amp; Fauna
+        </Heading>
+        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
+          <Button variant="outline" colorScheme="blue" w="xs">
+            Learn more
+          </Button>
+        </Link>
       </Row>
       <Row
         rowHeight="300px"
         imageSource="/img/people.jpg"
         contentPosition="right"
       >
-        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
-          Read Article
-        </Button>
+        <Heading
+          fontSize="xl"
+          lineHeight="1.5"
+          fontWeight="400"
+          textTransform="uppercase"
+          color="#d1d1d3"
+        >
+          History
+        </Heading>
+        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
+          Creation of the Park
+        </Heading>
+        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
+          <Button variant="outline" colorScheme="blue" w="xs">
+            Learn more
+          </Button>
+        </Link>
       </Row>
       <Flex wrap={["wrap", "nowrap"]}>
-        <Card imageSource="/img/lake.jpg" />
-        <Card imageSource="/img/natgeo.webp" />
+        <Card imageSource="/img/lake.jpg">
+          <Heading
+            mt="4"
+            as="h3"
+            fontSize={["md", "xl"]}
+            lineHeight="1.5"
+            textTransform="uppercase"
+            fontWeight="400"
+            color="#d1d1d3"
+          >
+            Park Essentials
+          </Heading>
+          <Heading
+            as="h2"
+            fontSize={["2xl", "4xl"]}
+            lineHeight="1.5"
+            fontWeight="700"
+          >
+            Earthquakes
+          </Heading>
+          <Text
+            mt="4"
+            fontSize={["md", "lg"]}
+            lineHeight="1.5"
+            fontWeight="400"
+            color="#d1d1d3"
+          >
+            Earthquakes in the park, and what they mean.
+          </Text>
+        </Card>
+        <Card imageSource="/img/natgeo.webp">
+          <Heading
+            mt="4"
+            as="h3"
+            fontSize={["md", "xl"]}
+            lineHeight="1.5"
+            textTransform="uppercase"
+            fontWeight="400"
+            color="#d1d1d3"
+          >
+            Park Essentials
+          </Heading>
+          <Heading
+            as="h2"
+            fontSize={["2xl", "4xl"]}
+            lineHeight="1.5"
+            fontWeight="700"
+          >
+            What is a National Park?
+          </Heading>
+          <Text
+            mt="4"
+            fontSize={["md", "lg"]}
+            lineHeight="1.5"
+            fontWeight="400"
+            color="#d1d1d3"
+          >
+            Learn how to protect the geologic resources of a nature.
+          </Text>
+        </Card>
       </Flex>
       <Row
         rowHeight="480px"
         imageSource="/img/river.jpeg"
         contentPosition="right"
       >
-        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
-          Read Article
-        </Button>
+        <Heading
+          fontSize="xl"
+          lineHeight="1.5"
+          fontWeight="400"
+          textTransform="uppercase"
+          color="#d1d1d3"
+        >
+          Yellowstone Essentials
+        </Heading>
+        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
+          Climate
+        </Heading>
+        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
+          <Button variant="outline" colorScheme="blue" w="xs">
+            Learn more
+          </Button>
+        </Link>
       </Row>
       <Row
         rowHeight="480px"
         imageSource="/img/essence.jpg"
         contentPosition="left"
       >
-        <Button colorScheme="blue" variant="outline" isFullWidth={false} w="xs">
-          Read Article
-        </Button>
+        <Heading
+          fontSize="xl"
+          lineHeight="1.5"
+          fontWeight="400"
+          textTransform="uppercase"
+          color="#d1d1d3"
+        >
+          Inspiration and References
+        </Heading>
+        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
+          About This Website
+        </Heading>
+        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
+          <Button variant="outline" colorScheme="blue" w="xs">
+            Learn more
+          </Button>
+        </Link>
       </Row>
     </Flex>
   );
