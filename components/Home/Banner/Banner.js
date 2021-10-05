@@ -1,12 +1,13 @@
-import { Flex, Image, Heading, Text, Link, Spacer } from "@chakra-ui/react";
+import { Flex, Heading, Text, Link, Spacer } from "@chakra-ui/react";
 import BannerCard from "./BannerCard";
 
 const Banner = () => {
   return (
     <Flex
       direction="column"
+      display={["none", "flex"]}
       w="100%"
-      h={["20vh","85vh"]}
+      h={["20vh", "85vh"]}
       p="8"
       bgImage={`linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url(banner.jpg)`}
       bgPosition="center"
@@ -17,7 +18,6 @@ const Banner = () => {
       <Flex direction="column" w="50%">
         <Heading
           as="h1"
-          display={["none", "block"]}
           textTransform="uppercase"
           fontSize={["sm", "6xl"]}
           lineHeight="1.5"
@@ -27,7 +27,6 @@ const Banner = () => {
           Yellowstone
         </Heading>
         <Text
-          display={["none", "block"]}
           lineHeight="1.5"
           fontWeight="400"
           fontSize="c"
@@ -38,7 +37,6 @@ const Banner = () => {
           accumsan augue.
         </Text>
         <Link
-          display={["none", "block"]}
           textDecoration="underline"
           fontSize="xl"
           lineHeight="1.5"
@@ -48,10 +46,10 @@ const Banner = () => {
         </Link>
       </Flex>
       <Spacer />
-      <Flex direction="column" display={["none","block"]}>
+      <Flex direction="column">
         <Flex align="center">
           <Heading textTransform="uppercase" fontSize="xl" mr="4">
-            Latest News & Activities
+            Latest News &amp; Activities
           </Heading>
           <Link fontSize="xl">View all news</Link>
         </Flex>

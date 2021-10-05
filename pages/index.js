@@ -3,6 +3,8 @@ import { Flex } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
 import Card from "../components/Home/Card/Card";
 import Row from "../components/Home/Row/Row";
+import BannerMobile from "../components/Home/Banner/BannerMobile";
+import BannerNewsMobile from "../components/Home/Banner/BannerNewsMobile";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
+      <BannerMobile />
+      <BannerNewsMobile />
       <Flex wrap={["wrap", "nowrap"]}>
         <Card
           imageSource="/img/buffalo.jpg"
