@@ -1,4 +1,7 @@
-import { Flex, Image, Heading, Button } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+import RowCaption from "./RowCaption";
+import RowHeader from "./RowHeader";
+import RowButton from "./RowButton";
 
 const Row = ({
   rowHeight,
@@ -7,7 +10,8 @@ const Row = ({
   children,
   caption,
   header,
-  text,
+  buttonLink,
+  buttonText,
 }) => {
   let gradient = "";
   let dir = "";
@@ -40,11 +44,14 @@ const Row = ({
       bgRepeat="no-repeat"
       direction={dir}
       align="center"
-      justify={["center","flex-start"]}
+      justify={["center", "flex-start"]}
       p="8"
     >
       <Flex direction="column" justify="center" align="center" p="4">
-        {children}
+        <RowCaption caption={caption} />
+        <RowHeader header={header} />
+        <RowButton buttonLink={buttonLink} buttonText={buttonText} />
+        {/* {children} */}
       </Flex>
     </Flex>
   );

@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { Flex, Button, Link, Heading, Text } from "@chakra-ui/react";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
 import Card from "../components/Home/Card";
-import Row from "../components/Home/Row";
+import Row from "../components/Home/Row/Row";
 
 export default function Home() {
   return (
@@ -83,94 +83,38 @@ export default function Home() {
         rowHeight="300px"
         imageSource="/img/prismatic.jpg"
         contentPosition="right"
-      >
-        <Heading
-          fontSize="xl"
-          lineHeight="1.5"
-          fontWeight="400"
-          textTransform="uppercase"
-          color="#d1d1d3"
-        >
-          National Geographic
-        </Heading>
-        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
-          America&apos;s National Parks
-        </Heading>
-        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button colorScheme="blue" w="xs">
-            Watch Now
-          </Button>
-        </Link>
-      </Row>
+        caption="National Geographic"
+        header="America's National Parks"
+        buttonLink="https://youtu.be/7OMxBlK46wY"
+        buttonText="Watch Now"
+      />
       <Row
         rowHeight="480px"
         imageSource="/img/spring.jpg"
         contentPosition="center"
-      >
-        <Heading
-          fontSize="xl"
-          lineHeight="1.5"
-          fontWeight="400"
-          textTransform="uppercase"
-          color="#d1d1d3"
-        >
-          The Yellowstone Super Volcano
-        </Heading>
-        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
-          Yellowstone Caldera
-        </Heading>
-        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button colorScheme="blue" w="xs">
-            Read Article
-          </Button>
-        </Link>
-      </Row>
+        caption="The Yellowstone Super Volcano"
+        header="Yellowstone Caldera"
+        buttonLink=""
+        buttonText="Read Article"
+      />
       <Row
         rowHeight="480px"
         imageSource="/img/prettylake.webp"
         contentPosition="center"
-      >
-        <Heading
-          fontSize="xl"
-          lineHeight="1.5"
-          fontWeight="400"
-          textTransform="uppercase"
-          color="#d1d1d3"
-        >
-          Park Biology
-        </Heading>
-        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
-          Flora &amp; Fauna
-        </Heading>
-        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button colorScheme="blue" w="xs">
-            Learn more
-          </Button>
-        </Link>
-      </Row>
+        caption="Park Biology"
+        header="Flora &amp; Fauna"
+        buttonLink=""
+        buttonText="Learn more"
+      />
       <Row
         rowHeight="300px"
         imageSource="/img/people.jpg"
         contentPosition="right"
-      >
-        <Heading
-          fontSize="xl"
-          lineHeight="1.5"
-          fontWeight="400"
-          textTransform="uppercase"
-          color="#d1d1d3"
-        >
-          History
-        </Heading>
-        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
-          Creation of the Park
-        </Heading>
-        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button colorScheme="blue" w="xs">
-            Learn more
-          </Button>
-        </Link>
-      </Row>
+        caption="History"
+        header="Creation of the Park"
+        buttonLink=""
+        buttonText="Learn more"
+      />
       <Flex wrap={["wrap", "nowrap"]}>
         <Card imageSource="/img/lake.jpg">
           <Heading
@@ -237,48 +181,20 @@ export default function Home() {
         rowHeight="480px"
         imageSource="/img/river.jpeg"
         contentPosition="right"
-      >
-        <Heading
-          fontSize="xl"
-          lineHeight="1.5"
-          fontWeight="400"
-          textTransform="uppercase"
-          color="#d1d1d3"
-        >
-          Yellowstone Essentials
-        </Heading>
-        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
-          Climate
-        </Heading>
-        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button colorScheme="blue" w="xs">
-            Learn more
-          </Button>
-        </Link>
-      </Row>
+        caption="Yellowstone Essentials"
+        header="Climate"
+        buttonLink=""
+        buttonText="Learn more"
+      />
       <Row
         rowHeight="480px"
         imageSource="/img/essence.jpg"
         contentPosition="left"
-      >
-        <Heading
-          fontSize="xl"
-          lineHeight="1.5"
-          fontWeight="400"
-          textTransform="uppercase"
-          color="#d1d1d3"
-        >
-          Inspiration and References
-        </Heading>
-        <Heading fontSize="4xl" lineHeight="1.5" fontWeight="700">
-          About This Website
-        </Heading>
-        <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button colorScheme="blue" w="xs">
-            Learn more
-          </Button>
-        </Link>
-      </Row>
+        caption="Inspiration and References"
+        header="About This Website"
+        buttonLink=""
+        buttonText="Learn more"
+      />
     </Flex>
   );
 }
