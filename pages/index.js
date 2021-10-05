@@ -6,7 +6,7 @@ import Row from "../components/Home/Row";
 
 export default function Home() {
   return (
-    <Flex direction="column" w="100vw">
+    <Flex direction="column" w="100%">
       <Head>
         <title>Yellowstone | Home</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -97,7 +97,7 @@ export default function Home() {
           America&apos;s National Parks
         </Heading>
         <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button variant="outline" colorScheme="blue" w="xs">
+          <Button colorScheme="blue" w="xs">
             Watch Now
           </Button>
         </Link>
@@ -120,7 +120,7 @@ export default function Home() {
           Yellowstone Caldera
         </Heading>
         <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button variant="outline" colorScheme="blue" w="xs">
+          <Button colorScheme="blue" w="xs">
             Read Article
           </Button>
         </Link>
@@ -143,7 +143,7 @@ export default function Home() {
           Flora &amp; Fauna
         </Heading>
         <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button variant="outline" colorScheme="blue" w="xs">
+          <Button colorScheme="blue" w="xs">
             Learn more
           </Button>
         </Link>
@@ -166,7 +166,7 @@ export default function Home() {
           Creation of the Park
         </Heading>
         <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button variant="outline" colorScheme="blue" w="xs">
+          <Button colorScheme="blue" w="xs">
             Learn more
           </Button>
         </Link>
@@ -251,7 +251,7 @@ export default function Home() {
           Climate
         </Heading>
         <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button variant="outline" colorScheme="blue" w="xs">
+          <Button colorScheme="blue" w="xs">
             Learn more
           </Button>
         </Link>
@@ -274,7 +274,7 @@ export default function Home() {
           About This Website
         </Heading>
         <Link href="https://youtu.be/7OMxBlK46wY" isExternal>
-          <Button variant="outline" colorScheme="blue" w="xs">
+          <Button colorScheme="blue" w="xs">
             Learn more
           </Button>
         </Link>

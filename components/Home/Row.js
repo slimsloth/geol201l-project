@@ -13,38 +13,38 @@ const Row = ({
   let dir = "";
   switch (contentPosition) {
     case "left":
-      gradient = "linear(to-r, #060606, transparent)";
+      gradient = "to left";
       dir = "row";
       break;
     case "center":
-      gradient = "linear(to-b, #060606, transparent)";
+      gradient = "to top";
       dir = "column";
       break;
     case "right":
-      gradient = "linear(to-l, #060606, transparent)";
+      gradient = "to right";
       dir = "row-reverse";
       break;
     default:
-      gradient = "linear(to-t, #060606, transparent)";
+      gradient = "to bottom";
       break;
   }
 
   return (
-    <Flex h={rowHeight} my="2px" w="100%">
-      <Image w="100vw" src={imageSource} alt="text" objectFit="cover" />
-      <Flex
-        direction={dir}
-        position="absolute"
-        w="100%"
-        h={rowHeight}
-        bgGradient={gradient}
-        p="8"
-        align="center"
-        justify="center"
-      >
-        <Flex direction="column" justify="center" align="center" p="4">
-          {children}
-        </Flex>
+    <Flex
+      h={rowHeight}
+      my="2px"
+      w="100%"
+      bgImage={`linear-gradient(${gradient}, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url(${imageSource})`}
+      bgPosition="center"
+      backgroundSize="cover"
+      bgRepeat="no-repeat"
+      direction={dir}
+      align="center"
+      justify={["center","flex-start"]}
+      p="8"
+    >
+      <Flex direction="column" justify="center" align="center" p="4">
+        {children}
       </Flex>
     </Flex>
   );

@@ -25,7 +25,7 @@ const Footer = () => {
           <Icon as={FaEnvelope} boxSize="35px" p="5px" />
         </Link>
       </Flex>
-      <Text>&copy; 2021 Sean Mitchell</Text>
+      <Text>&copy; 2021 | Created by Sean Mitchell</Text>
     </Flex>
   );
 };
