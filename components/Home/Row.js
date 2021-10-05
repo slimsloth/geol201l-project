@@ -39,6 +39,8 @@ const Row = ({
         h={rowHeight}
         bgGradient={gradient}
         p="8"
+        align="center"
+        justify="center"
       >
         <Flex direction="column" justify="center" align="center" p="4">
           {children}
