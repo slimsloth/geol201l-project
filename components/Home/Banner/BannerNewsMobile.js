@@ -6,11 +6,12 @@ const BannerNewsMobile = () => {
     <Flex
       direction="column"
       align="center"
+      justify="center"
       display={["flex", "none"]}
       w="100%"
       p="2"
     >
-      <Flex w="100%" justify="space-between" p="2">
+      <Flex w="100%" justify="space-between" p="3">
         <Heading textTransform="uppercase" fontSize="md" mr="4">
           Latest News &amp; Activities
         </Heading>

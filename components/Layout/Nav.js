@@ -52,10 +52,13 @@ const Nav = () => {
             Home
           </Link>
           <Link href="/history" mr={[1, 2]}>
-            History
+            Articles
           </Link>
-          <Link href="/nature" mr={[1, 2]}>
-            Nature
+          <Link href="/history" mr={[1, 2]}>
+            Guides
+          </Link>
+          <Link href="/history" mr={[1, 2]}>
+            News
           </Link>
           <Link href="/about" mr={[1, 2]}>
             About

@@ -1,4 +1,4 @@
-import { Flex, Heading, Text, Link, Spacer } from "@chakra-ui/react";
+import { Flex, Heading, Text, Link, Spacer, Button } from "@chakra-ui/react";
 import BannerCard from "./BannerCard";
 
 const Banner = () => {
@@ -42,7 +42,7 @@ const Banner = () => {
           lineHeight="1.5"
           fontWeight="400"
         >
-          Explore Yellowstone
+          <Button variant="outline" >Explore Yellowstone</Button>
         </Link>
       </Flex>
       <Spacer />
