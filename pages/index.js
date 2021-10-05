@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
 import Card from "../components/Home/Card/Card";
 import Row from "../components/Home/Row/Row";

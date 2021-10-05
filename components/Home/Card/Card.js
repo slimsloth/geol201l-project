@@ -3,7 +3,7 @@ import CardCaption from "./CardCaption";
 import CardHeader from "./CardHeader";
 import CardText from "./CardText";
 
-const Card = ({ imageSource, children, caption, header, text }) => {
+const Card = ({ imageSource, caption, header, text }) => {
   return (
     <Flex
       direction="column"
@@ -24,7 +24,6 @@ const Card = ({ imageSource, children, caption, header, text }) => {
       <CardCaption caption={caption} />
       <CardHeader header={header} />
       <CardText text={text} />
-      {children}
     </Flex>
   );
 };

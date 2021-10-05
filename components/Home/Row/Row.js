@@ -7,7 +7,6 @@ const Row = ({
   rowHeight,
   contentPosition,
   imageSource,
-  children,
   caption,
   header,
   buttonLink,
@@ -51,7 +50,6 @@ const Row = ({
         <RowCaption caption={caption} />
         <RowHeader header={header} />
         <RowButton buttonLink={buttonLink} buttonText={buttonText} />
-        {/* {children} */}
       </Flex>
     </Flex>
   );
