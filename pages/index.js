@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Flex, Heading, Text } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
-import Card from "../components/Home/Card";
+import Card from "../components/Home/Card/Card";
 import Row from "../components/Home/Row/Row";
 
 export default function Home() {
@@ -18,66 +18,18 @@ export default function Home() {
       </Head>
       <Banner />
       <Flex wrap={["wrap", "nowrap"]}>
-        <Card imageSource="/img/buffalo.jpg">
-          <Heading
-            mt="4"
-            as="h3"
-            fontSize={["md", "xl"]}
-            lineHeight="1.5"
-            textTransform="uppercase"
-            fontWeight="400"
-            color="#d1d1d3"
-          >
-            Short Article
-          </Heading>
-          <Heading
-            as="h2"
-            fontSize={["2xl", "4xl"]}
-            lineHeight="1.5"
-            fontWeight="700"
-          >
-            Wildlife of Yellowstone
-          </Heading>
-          <Text
-            mt="4"
-            fontSize={["md", "lg"]}
-            lineHeight="1.5"
-            fontWeight="400"
-            color="#d1d1d3"
-          >
-            Learn about the wildlife in the park.
-          </Text>
-        </Card>
-        <Card imageSource="/img/erupt.jpg">
-          <Heading
-            mt="4"
-            as="h3"
-            fontSize={["md", "xl"]}
-            lineHeight="1.5"
-            textTransform="uppercase"
-            fontWeight="400"
-            color="#d1d1d3"
-          >
-            Park Essentials
-          </Heading>
-          <Heading
-            as="h2"
-            fontSize={["2xl", "4xl"]}
-            lineHeight="1.5"
-            fontWeight="700"
-          >
-            Geysers of Yellowstone
-          </Heading>
-          <Text
-            mt="4"
-            fontSize={["md", "lg"]}
-            lineHeight="1.5"
-            fontWeight="400"
-            color="#d1d1d3"
-          >
-            Read up on how geysers formed in the park.
-          </Text>
-        </Card>
+        <Card
+          imageSource="/img/buffalo.jpg"
+          caption="Short Article"
+          header="Wildlife of Yellowstone"
+          text="Learn about the wildlife in the park."
+        />
+        <Card
+          imageSource="/img/erupt.jpg"
+          caption="Park Essentials"
+          header="Geysers of Yellowstone"
+          text="Read up on how geysers formed in the park."
+        />
       </Flex>
       <Row
         rowHeight="300px"
@@ -116,66 +68,18 @@ export default function Home() {
         buttonText="Learn more"
       />
       <Flex wrap={["wrap", "nowrap"]}>
-        <Card imageSource="/img/lake.jpg">
-          <Heading
-            mt="4"
-            as="h3"
-            fontSize={["md", "xl"]}
-            lineHeight="1.5"
-            textTransform="uppercase"
-            fontWeight="400"
-            color="#d1d1d3"
-          >
-            Park Essentials
-          </Heading>
-          <Heading
-            as="h2"
-            fontSize={["2xl", "4xl"]}
-            lineHeight="1.5"
-            fontWeight="700"
-          >
-            Earthquakes
-          </Heading>
-          <Text
-            mt="4"
-            fontSize={["md", "lg"]}
-            lineHeight="1.5"
-            fontWeight="400"
-            color="#d1d1d3"
-          >
-            Earthquakes in the park, and what they mean.
-          </Text>
-        </Card>
-        <Card imageSource="/img/natgeo.webp">
-          <Heading
-            mt="4"
-            as="h3"
-            fontSize={["md", "xl"]}
-            lineHeight="1.5"
-            textTransform="uppercase"
-            fontWeight="400"
-            color="#d1d1d3"
-          >
-            Park Essentials
-          </Heading>
-          <Heading
-            as="h2"
-            fontSize={["2xl", "4xl"]}
-            lineHeight="1.5"
-            fontWeight="700"
-          >
-            What is a National Park?
-          </Heading>
-          <Text
-            mt="4"
-            fontSize={["md", "lg"]}
-            lineHeight="1.5"
-            fontWeight="400"
-            color="#d1d1d3"
-          >
-            Learn how to protect the geologic resources of a nature.
-          </Text>
-        </Card>
+        <Card
+          imageSource="/img/lake.jpg"
+          caption="Park Essentials"
+          header="Earthquakes"
+          text="Earthquakes in the park, and what they mean."
+        />
+        <Card
+          imageSource="/img/natgeo.webp"
+          caption="Park Essentials"
+          header="What is a National Park?"
+          text="Learn how to protect the geologic resources of a nature."
+        />
       </Flex>
       <Row
         rowHeight="480px"
