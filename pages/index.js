@@ -50,7 +50,7 @@ export default function Home() {
         contentPosition="center"
         caption="The Yellowstone Super Volcano"
         header="Yellowstone Caldera"
-        buttonLink=""
+        buttonLink="/articles/loremipsum"
         buttonText="Read Article"
       />
       <Row
@@ -59,7 +59,7 @@ export default function Home() {
         contentPosition="center"
         caption="Park Biology"
         header="Flora &amp; Fauna"
-        buttonLink=""
+        buttonLink="/articles/loremipsum"
         buttonText="Learn more"
       />
       <Row
@@ -68,7 +68,7 @@ export default function Home() {
         contentPosition="right"
         caption="History"
         header="Creation of the Park"
-        buttonLink=""
+        buttonLink="/articles/loremipsum"
         buttonText="Learn more"
       />
       <Flex wrap={["wrap", "nowrap"]}>
@@ -91,7 +91,7 @@ export default function Home() {
         contentPosition="right"
         caption="Yellowstone Essentials"
         header="Climate"
-        buttonLink=""
+        buttonLink="/articles/loremipsum"
         buttonText="Learn more"
       />
       <Row
@@ -100,7 +100,7 @@ export default function Home() {
         contentPosition="left"
         caption="Inspiration and References"
         header="About This Website"
-        buttonLink=""
+        buttonLink="/articles/loremipsum"
         buttonText="Learn more"
       />
     </Flex>
