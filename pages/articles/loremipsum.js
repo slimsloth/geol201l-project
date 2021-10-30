@@ -5,7 +5,7 @@ const LoremIpsum = () => {
     <Flex minH="100vh" direction="column" maxW="100%" px="72" fontSize="xl">
       <Flex direction="column" bgColor="#f8f7f3" color="black" p="4">
         <Heading mt="14">
-          Learn Anything Faster By Using The Feynman Technique
+        Fusce pretium lacus sed odio pulvinar
         </Heading>
         <Flex py="8" align="center">
           <Image
@@ -22,14 +22,14 @@ const LoremIpsum = () => {
         </Flex>
         <Image src="/img/spring.jpg" alt="banner" borderRadius="sm" mb="8" />
         <Text>
-          Richard Feynman is considered to be one of the most miraculous
-          personalities in scientific history. The 1965 Nobel prize winner on
-          QED (along with J. Schwinger and Tomonaga), Dr. Feynman was a
-          remarkably amazing educator and a great physicist. Feynman, along with
-          many other contributions to science, had created a mathematical theory
-          that accounts for the phenomenon of superfluidity in liquid helium.
-          Thereafter, he had fundamental contributions (along with Murray
-          Gell-Mann) to weak interactions such as beta decay.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget
+          turpis non est egestas porta quis viverra velit. Integer at augue et
+          nunc placerat luctus et eget tellus. Vivamus faucibus congue turpis,
+          nec placerat libero vehicula id. Aenean vel mollis lectus, at
+          venenatis lorem. Donec et diam a dui dapibus efficitur. Donec mattis,
+          lectus nec tincidunt venenatis, erat mi accumsan nisl, luctus
+          porttitor lectus nisl at augue. Quisque aliquam pharetra lorem quis
+          gravida. Aenean ullamcorper est id pulvinar euismod.
         </Text>
         <Box h="20px" />
         <Image
@@ -40,11 +40,18 @@ const LoremIpsum = () => {
           alt="lorem ipsum"
           alignSelf="center"
         />
-        <Text textAlign="center" fontSize="sm" color="gray.600">Photo credit: your mom</Text>
+        <Text textAlign="center" fontSize="sm" color="gray.600">
+          Photo credit: your mom
+        </Text>
         <Text>
-          The genius of Richard Feynman in evident from his three-volume books
-          on physics called The Feynman Lectures on Physics, which are based on
-          his lectures at Caltech during 1961–1963.
+          Nullam non nibh ante. Mauris a iaculis nibh, sit amet aliquam mauris.
+          Etiam feugiat dolor sed ipsum sodales, et porttitor enim maximus.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+          per inceptos himenaeos. Phasellus nec efficitur est. Ut id erat at
+          arcu posuere convallis. Sed dignissim aliquam tellus quis dictum.
+          Vivamus nulla elit, bibendum at semper ac, tincidunt eu tellus. Orci
+          varius natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus.
         </Text>
         <Box h="20px" />
         <Image
@@ -55,11 +62,15 @@ const LoremIpsum = () => {
           alt="lorem ipsum"
           alignSelf="center"
         />
-        <Text textAlign="center" fontSize="sm" color="gray.600">Photo credit: your mom</Text>
+        <Text textAlign="center" fontSize="sm" color="gray.600">
+          Photo credit: your mom
+        </Text>
         <Text>
-          In his teenage years, Richard Feynman’s high school did not offer any
-          courses on calculus. As a high-school teenager, he decided to teach
-          himself calculus and read Calculus for the Practical Man.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean
+          pellentesque euismod congue. Integer rutrum eros vel porta pulvinar.
+          Donec nec venenatis ex. Nunc metus quam, maximus a suscipit sit amet,
+          porttitor a dui. Aliquam elementum orci eget turpis consequat, ut
+          molestie urna egestas. Mauris tincidunt finibus iaculis.
         </Text>
       </Flex>
     </Flex>
