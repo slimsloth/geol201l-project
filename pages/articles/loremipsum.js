@@ -2,18 +2,18 @@ import { Flex, Image, Heading, Text, Box } from "@chakra-ui/react";
 
 const LoremIpsum = () => {
   return (
-    <Flex minH="100vh" direction="column" maxW="100%" px="600px" fontSize="xl">
+    <Flex minH="100vh" direction="column" maxW="100%" px="72" fontSize="xl">
       <Flex direction="column" bgColor="#f8f7f3" color="black" p="4">
         <Heading mt="14">
           Learn Anything Faster By Using The Feynman Technique
         </Heading>
         <Flex py="8" align="center">
           <Image
-            src="https://bit.ly/sage-adebayo"
-            alt="Segun Adebayo"
+            src="/img/me.jpeg"
+            alt="Sean M"
             borderRadius="full"
-            boxSize="50px"
-            mr="2"
+            boxSize="75px"
+            mr="4"
           />
           <Flex direction="column">
             <Text>Sean Mitchell</Text>
@@ -32,12 +32,30 @@ const LoremIpsum = () => {
           Gell-Mann) to weak interactions such as beta decay.
         </Text>
         <Box h="20px" />
+        <Image
+          src="https://picsum.photos/200"
+          objectFit="cover"
+          w="lg"
+          h="sm"
+          alt="lorem ipsum"
+          alignSelf="center"
+        />
+        <Text textAlign="center" fontSize="sm" color="gray.600">Photo credit: your mom</Text>
         <Text>
           The genius of Richard Feynman in evident from his three-volume books
           on physics called The Feynman Lectures on Physics, which are based on
           his lectures at Caltech during 1961–1963.
         </Text>
         <Box h="20px" />
+        <Image
+          src="https://picsum.photos/200"
+          objectFit="cover"
+          w="lg"
+          h="sm"
+          alt="lorem ipsum"
+          alignSelf="center"
+        />
+        <Text textAlign="center" fontSize="sm" color="gray.600">Photo credit: your mom</Text>
         <Text>
           In his teenage years, Richard Feynman’s high school did not offer any
           courses on calculus. As a high-school teenager, he decided to teach
