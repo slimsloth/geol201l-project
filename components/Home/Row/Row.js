@@ -11,6 +11,7 @@ const Row = ({
   header,
   buttonLink,
   buttonText,
+  external
 }) => {
   let gradient = "";
   let dir = "";
@@ -49,7 +50,7 @@ const Row = ({
       <Flex direction="column" justify="center" align="center" p="4">
         <RowCaption caption={caption} />
         <RowHeader header={header} />
-        <RowButton buttonLink={buttonLink} buttonText={buttonText} />
+        <RowButton buttonLink={buttonLink} buttonText={buttonText} external={external}/>
       </Flex>
     </Flex>
   );
