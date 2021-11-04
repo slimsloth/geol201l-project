@@ -1,4 +1,4 @@
-import { Heading, Text, Flex } from "@chakra-ui/react";
+import { Heading, Text, Flex, Link } from "@chakra-ui/react";
 
 const Summary = () => {
   return (
@@ -30,9 +30,12 @@ const Summary = () => {
       <Text>
         All of my references for my articles can be found below. Additionally,
         you can find the tech stack I used for this project. ALSO you can find
-        the GitHub source code repository for this website here. I hope that you
-        have learned something reading through this site, whether it be geology
-        related or computer science related.
+        the{" "}
+        <Link href="https://github.com/slimsloth" color="blue.200" isExternal>
+          link for the GitHub source code repository for this website here.
+        </Link>{" "}
+        I hope that you have learned something reading through this site,
+        whether it be geology related or computer science related.
       </Text>
     </Flex>
   );

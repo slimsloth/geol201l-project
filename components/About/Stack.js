@@ -3,7 +3,7 @@ import { Heading, Flex, Image, Link } from "@chakra-ui/react";
 const Stack = () => {
   return (
     <Flex direction="column">
-      <Heading textAlign="center">Technologies used</Heading>
+      <Heading>Built with</Heading>
       <Flex flexShrink="0" wrap="wrap" align="center" justify="space-between">
         <Link href="https://reactjs.org/" isExternal>
           <Image w="3xs" src="./assets/react-logo.png" alt="react logo" />
