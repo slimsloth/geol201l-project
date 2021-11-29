@@ -1,6 +1,8 @@
 import {
   Flex,
   Link,
+  LinkOverlay,
+  LinkBox,
   Heading,
   Icon,
   HStack,
@@ -37,28 +39,36 @@ const Nav = () => {
           onClick={isOpen ? onClose : onOpen}
         />
         <Spacer display={["block", "none"]} />
-        <Icon as={SiGoogleearth} mr={[2, 2]} color="#009ae4" />
-        <Heading
-          size={["sm", "md"]}
-          mr={[2, 8]}
-          color="#009ae4"
-          userSelect="none"
-        >
-          Yellowstone Park
-        </Heading>
+
+        <LinkBox mr={[1, 2]}>
+          <LinkOverlay href="/">
+            <Flex align="center">
+              <Icon as={SiGoogleearth} mr={[2, 2]} color="#009ae4" />
+              <Heading
+                size={["sm", "md"]}
+                mr={[2, 8]}
+                color="#009ae4"
+                userSelect="none"
+              >
+                Yellowstone Park
+              </Heading>
+            </Flex>
+          </LinkOverlay>
+        </LinkBox>
+
         <Spacer display={["block", "none"]} />
         <HStack spacing={4} display={["none", "flex"]}>
-          <Link href="/" mr={[1, 2]}>
-            Home
+          <Link href="/articles/history" mr={[1, 2]}>
+            Park History
           </Link>
-          <Link href="/history" mr={[1, 2]}>
-            Articles
+          <Link href="/articles/old_faithful" mr={[1, 2]}>
+            Old Faithful
           </Link>
-          <Link href="/history" mr={[1, 2]}>
-            Guides
+          <Link href="/articles/caldera" mr={[1, 2]}>
+            Yellowstone Caldera
           </Link>
-          <Link href="/history" mr={[1, 2]}>
-            News
+          <Link href="/articles/bison" mr={[1, 2]}>
+            Bison
           </Link>
           <Link href="/about" mr={[1, 2]}>
             About

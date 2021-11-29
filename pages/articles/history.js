@@ -3,10 +3,8 @@ import { Flex, Image, Heading, Text, Box } from "@chakra-ui/react";
 const LoremIpsum = () => {
   return (
     <Flex minH="100vh" direction="column" maxW="100%" px="72" fontSize="xl">
-      <Flex direction="column" bgColor="#f8f7f3" color="black" p="4">
-        <Heading mt="14">
-        Fusce pretium lacus sed odio pulvinar
-        </Heading>
+      <Flex direction="column" color="white" p="4">
+        <Heading mt="14">History of Yellowstone Park</Heading>
         <Flex py="8" align="center">
           <Image
             src="/img/me.jpeg"
@@ -15,12 +13,16 @@ const LoremIpsum = () => {
             boxSize="75px"
             mr="4"
           />
+
           <Flex direction="column">
             <Text>Sean Mitchell</Text>
             <Text>Oct 9 | 6 min read</Text>
           </Flex>
         </Flex>
-        <Image src="/img/spring.jpg" alt="banner" borderRadius="sm" mb="8" />
+        <Image src="/img/spring.jpg" alt="banner" borderRadius="sm" mb="2" />
+        <Text textAlign="center" fontSize="sm" color="gray.300">
+          Photo credit: your mom
+        </Text>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget
           turpis non est egestas porta quis viverra velit. Integer at augue et
@@ -40,7 +42,7 @@ const LoremIpsum = () => {
           alt="lorem ipsum"
           alignSelf="center"
         />
-        <Text textAlign="center" fontSize="sm" color="gray.600">
+        <Text textAlign="center" fontSize="sm" color="gray.300">
           Photo credit: your mom
         </Text>
         <Text>
@@ -62,7 +64,7 @@ const LoremIpsum = () => {
           alt="lorem ipsum"
           alignSelf="center"
         />
-        <Text textAlign="center" fontSize="sm" color="gray.600">
+        <Text textAlign="center" fontSize="sm" color="gray.300">
           Photo credit: your mom
         </Text>
         <Text>
