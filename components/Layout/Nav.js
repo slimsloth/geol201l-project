@@ -73,7 +73,7 @@ const Nav = () => {
           <Link href="/articles/bison" mr={[1, 2]}>
             Bison
           </Link>
-          <Link href="/about" mr={[1, 2]}>
+          <Link href="/articles/about" mr={[1, 2]}>
             About
           </Link>
         </HStack>
@@ -85,10 +85,11 @@ const Nav = () => {
             align="stretch"
             justify="stretch"
           >
-            <Link href="/">Home</Link>
-            <Link href="/history">History</Link>
-            <Link href="/nature">Nature</Link>
-            <Link href="/about">About</Link>
+            <Link href="/articles/history">Park History</Link>
+            <Link href="/articles/old_faithful">Old Faithful</Link>
+            <Link href="/articles/caldera">Yellowstone Caldera</Link>
+            <Link href="/articles/bison">Bison</Link>
+            <Link href="/articles/about">About</Link>
           </VStack>
         </Flex>
       ) : (

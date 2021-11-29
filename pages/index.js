@@ -70,7 +70,7 @@ export default function Home() {
         contentPosition="center"
         caption="Plumbing of Old Faithful"
         header="Old Faithful"
-        buttonLink="/articles/loremipsum"
+        buttonLink="/articles/old_faithful"
         buttonText="Learn more"
       />
       <Row
@@ -79,7 +79,7 @@ export default function Home() {
         contentPosition="right"
         caption="Super Volcano"
         header="Yellowstone Caldera"
-        buttonLink="/articles/loremipsum"
+        buttonLink="/articles/caldera"
         buttonText="Learn more"
       />
       <Flex wrap={["wrap", "nowrap"]}>
@@ -102,7 +102,7 @@ export default function Home() {
         contentPosition="right"
         caption="Park Wildlife"
         header="Bison"
-        buttonLink="/articles/loremipsum"
+        buttonLink="/articles/bison"
         buttonText="Learn more"
       />
       <Row
@@ -111,7 +111,7 @@ export default function Home() {
         contentPosition="left"
         caption="Inspiration and References"
         header="About This Website"
-        buttonLink="/about"
+        buttonLink="/articles/about"
         buttonText="Learn more"
       />
       <FeaturesModal isOpen={features} onClose={() => openFeatures(false)} />

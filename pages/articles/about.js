@@ -1,8 +1,8 @@
 import { Flex, Heading } from "@chakra-ui/react";
 import Head from "next/head";
-import References from "../components/About/References";
-import Stack from "../components/About/Stack";
-import Summary from "../components/About/Summary";
+import References from "../../components/About/References";
+import Stack from "../../components/About/Stack";
+import Summary from "../../components/About/Summary";
 
 const About = () => {
   return (
