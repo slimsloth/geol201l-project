@@ -1,12 +1,35 @@
 import Head from "next/head";
-import { Flex } from "@chakra-ui/react";
+import { useState } from "react";
+import { Flex, Box } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
 import Card from "../components/Home/Card/Card";
 import Row from "../components/Home/Row/Row";
 import BannerMobile from "../components/Home/Banner/BannerMobile";
 import BannerNewsMobile from "../components/Home/Banner/BannerNewsMobile";
+import FeaturesModal from "../components/Home/Modals/FeaturesModal";
 
 export default function Home() {
+  const [features, openFeatures] = useState(false);
+  const [geothermal, openGeothermal] = useState(false);
+  const [cougars, openCougars] = useState(false);
+  const [bears, openBears] = useState(false);
+
+  const cardClick = (card) => {
+    switch (card) {
+      case "features":
+        openFeatures(true);
+        break;
+      case "geothermal":
+        openGeothermal(true);
+        break;
+      case "cougars":
+        openCougars(true);
+        break;
+      case "bears":
+        openBears(true);
+        break;
+    }
+  };
   return (
     <Flex direction="column" w="100%">
       <Head>
@@ -27,6 +50,7 @@ export default function Home() {
           caption="Quick Facts"
           header="Park Features"
           text="Learn about the wildlife in the park."
+          clickHandler={openFeatures}
         />
         <Card
           imageSource="/img/erupt.jpg"
@@ -104,6 +128,7 @@ export default function Home() {
         buttonLink="/about"
         buttonText="Learn more"
       />
+      <FeaturesModal isOpen={features} onClose={() => openFeatures(false)}/>
     </Flex>
   );
 }
