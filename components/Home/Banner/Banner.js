@@ -9,7 +9,7 @@ const Banner = () => {
       w="100%"
       h={["20vh", "85vh"]}
       p="8"
-      bgImage={`linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url(banner.jpg)`}
+      bgImage={`linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),url(./img/denys-nevozhai-LMU2w-K4J7k-unsplash.jpg)`}
       bgPosition="center"
       backgroundSize="cover"
       bgRepeat="no-repeat"
