@@ -3,7 +3,7 @@ import CardCaption from "./CardCaption";
 import CardHeader from "./CardHeader";
 import CardText from "./CardText";
 
-const Card = ({ imageSource, caption, header, text }) => {
+const Card = ({ imageSource, caption, header, text, clickHandler }) => {
   return (
     <Flex
       direction="column"
@@ -13,6 +13,7 @@ const Card = ({ imageSource, caption, header, text }) => {
       m={["0px", "2px"]}
       textAlign="center"
       _hover={{ borderColor: "#3182ce" }}
+      onClick={() => clickHandler(true)}
     >
       <Image
         alt="alt text"
