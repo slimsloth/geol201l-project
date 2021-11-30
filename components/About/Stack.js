@@ -6,16 +6,16 @@ const Stack = () => {
       <Heading>Built with</Heading>
       <Flex flexShrink="0" wrap="wrap" align="center" justify="space-between">
         <Link href="https://reactjs.org/" isExternal>
-          <Image w="3xs" src="./assets/react-logo.png" alt="react logo" />
+          <Image w="3xs" src="/assets/react-logo.png" alt="react logo" />
         </Link>
         <Link href="https://chakra-ui.com/" isExternal>
-          <Image w="3xs" src="./assets/chakra-logo.png" alt="chakra logo" />
+          <Image w="3xs" src="/assets/chakra-logo.png" alt="chakra logo" />
         </Link>
         <Link href="https://vercel.com/" isExternal>
-          <Image w="3xs" src="./assets/vercel.png" alt="vercel logo" />
+          <Image w="3xs" src="/assets/vercel.png" alt="vercel logo" />
         </Link>
         <Link href="https://nextjs.org/" isExternal>
-          <Image w="3xs" src="./assets/nextjs.png" alt="nextjs logo" />
+          <Image w="3xs" src="/assets/nextjs.png" alt="nextjs logo" />
         </Link>
       </Flex>
     </Flex>
