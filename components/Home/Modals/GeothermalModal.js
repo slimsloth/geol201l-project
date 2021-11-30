@@ -121,8 +121,8 @@ const GeothermalModal = ({ isOpen, onClose }) => {
           </Text>
           <Text>
             Thermophiles typically live in temperatures between 41 and 122
-            degrees. Humans are considered Mesophiles and live between 20 to 45
-            degrees.
+            &deg; C. Humans are considered Mesophiles and live between 20 to 45
+            &deg; C.
           </Text>
         </ModalBody>
         <ModalFooter>
