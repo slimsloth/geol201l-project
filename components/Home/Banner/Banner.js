@@ -1,4 +1,4 @@
-import { Flex, Heading, Text, Link, Spacer, Button } from "@chakra-ui/react";
+import { Flex, Heading, Text, Link, Spacer } from "@chakra-ui/react";
 import BannerCard from "./BannerCard";
 
 const Banner = () => {
@@ -33,8 +33,7 @@ const Banner = () => {
           textShadow="0 1px transparent"
           mb="4"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
-          accumsan augue.
+          Learn about the first national park.
         </Text>
         <Link
           textDecoration="underline"
@@ -42,11 +41,10 @@ const Banner = () => {
           lineHeight="1.5"
           fontWeight="400"
         >
-          <Button variant="outline" >Explore Yellowstone</Button>
         </Link>
       </Flex>
       <Spacer />
-      <Flex direction="column">
+      {/* <Flex direction="column">
         <Flex align="center">
           <Heading textTransform="uppercase" fontSize="xl" mr="4">
             Latest News &amp; Activities
@@ -59,7 +57,7 @@ const Banner = () => {
           <BannerCard imageSrc="/img/horseback.png" />
           <BannerCard imageSrc="/img/rafting.jpg" />
         </Flex>
-      </Flex>
+      </Flex> */}
     </Flex>
   );
 };

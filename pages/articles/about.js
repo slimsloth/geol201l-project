@@ -6,7 +6,13 @@ import Summary from "../../components/About/Summary";
 
 const About = () => {
   return (
-    <Flex direction="column" minH="100vh" px="72" py="12" fontSize="xl">
+    <Flex
+      direction="column"
+      minH="100vh"
+      px={['5','10','10','72']}
+      py="12"
+      fontSize="xl"
+    >
       <Head>
         <title>Yellowstone | About</title>
         <meta
