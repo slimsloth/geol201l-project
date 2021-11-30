@@ -89,14 +89,14 @@ export default function Home() {
           imageSource="/img/robert-larsson-jGip_U1fXTI-unsplash.jpg"
           caption="Park Wildlife"
           header="Gray Wolves"
-          text="Earthquakes in the park, and what they mean."
+          text="Some quick facts about the pact oriented wolves of Yellowstone."
           clickHandler={openWolves}
         />
         <Card
           imageSource="/img/noaa-8-EyvQ6y77A-unsplash.jpg"
           caption="Park Wildlife"
           header="Black Bears"
-          text="Learn how to protect the geologic resources of a nature."
+          text="A brief overview of black bears."
           clickHandler={openBears}
         />
       </Flex>
