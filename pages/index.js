@@ -59,7 +59,7 @@ export default function Home() {
         rowHeight="480px"
         imageSource="/img/andrew-sterling-5nigV-Wh7xY-unsplash.jpg"
         contentPosition="center"
-        caption="The Yellowstone Super Volcano"
+        caption="Learn about the history of the park"
         header="Park History"
         buttonLink="/articles/history"
         buttonText="Read Article"
