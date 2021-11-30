@@ -37,18 +37,7 @@ const LoremIpsum = () => {
           Photo credit: Unsplash - Andrew Sterling
         </Text>
         <Text mb="8">
-          Old Faithful is one of the park&apos;s most popular attractionis,
-          tourists from all over the world travel to the park to see this famous
-          geyser. The park may have gorgeous scenery and an abundant wildlife,
-          but geysers such as Old Faithful is what makes Yellowstone so unique.
-          Old Faithful is one of the 500 geysers within the park, but it is also
-          one of the most unique geysers in the park. Just like it&apos;s name
-          implies, it is very consistent on how often it will erupt: roughly
-          every 90 minutes or 20 times a day. These eruptions average to 130-140
-          feet in height and last about 1.5 to 5 minutes in duration. Each
-          eruption blasts our 3,700 to 8,400 gallons of scalding hot water
-          measured at 204&deg;F. The steam temperature measures at 350&deg;F,
-          enough to cook meat.
+
         </Text>
 
         <Box mb="8">
@@ -106,18 +95,7 @@ const LoremIpsum = () => {
           </Swiper>
         </Box>
         <Text mb="8">
-          Generally it is pretty difficult to predict when a geyser will erupt,
-          but Old Faithful lives up to it&apos;s name and goes off on a regular
-          timer. The reason being is that there is a complex plumbing system
-          underneath the geyser, the diagram below illustrates this. This
-          plumbing system consists off many &apos;pipes&apos; and resovoirs that
-          fill up with rain water that is absorbed through the Earth&apos;s
-          surface. Below these resovoirs are hot rocks that are heated up by the
-          massive magma chamber beneath the park. Those hot rocks then heat up
-          the rainwater resovoirs for about 90 minutes, slowly building up steam
-          and pressure within the system. Eventually, the system depressurizes
-          and erupts, causing the incredibly eruption that Old Faithful is known
-          for.
+          
         </Text>
         <Image
           src="/img/old_faithful/old_faithfulplumbing.png"

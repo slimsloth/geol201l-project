@@ -125,6 +125,7 @@ const LoremIpsum = () => {
           w="lg"
           alt="lorem ipsum"
           alignSelf="center"
+          borderRadius="10px"
         />
         <Text textAlign="center" fontSize="sm" color="gray.300" mb="8">
           The plumbing under Old Faithful
