@@ -51,8 +51,9 @@ const LoremIpsum = () => {
           src="/img/caldera/1200px-Yellowstone_Caldera.svg.png"
           objectFit="scale-down"
           w="4xl"
-          alt="lorem ipsum"
+          alt="Magma Chamber below yellowstone"
           alignSelf="center"
+          borderRadius="10px"
         />
         <Text textAlign="center" fontSize="sm" color="gray.300" mb="8">
           The massive magma chamber beneath the park, provided by USGS.
@@ -72,7 +73,8 @@ const LoremIpsum = () => {
           src="/img/caldera/img24.0.jpg"
           objectFit="scale-down"
           w="4xl"
-          alt="lorem ipsum"
+          alt="Super Volcano Diagram"
+          borderRadius="10px"
           alignSelf="center"
         />
         <Text textAlign="center" fontSize="sm" color="gray.300" mb="8">
@@ -93,8 +95,9 @@ const LoremIpsum = () => {
           src="/img/caldera/yellowstone-ash-1.0.jpg"
           objectFit="scale-down"
           w="4xl"
-          alt="lorem ipsum"
+          alt="Predicted ash spread of yellowstone eruption in the US"
           alignSelf="center"
+          borderRadius="10px"
         />
         <Text textAlign="center" fontSize="sm" color="gray.300" mb="8">
           How much ash would affect the US if Yellowstone were to erupt today.
@@ -116,8 +119,9 @@ const LoremIpsum = () => {
           src="/img/caldera/20211002_164837.jpg"
           objectFit="scale-down"
           w="4xl"
-          alt="lorem ipsum"
+          alt="Shoshone ash heaps"
           alignSelf="center"
+          borderRadius="10px"
         />
         <Text textAlign="center" fontSize="sm" color="gray.300" mb="8">
           Picture of Shoshone ash heaps from our GEOL 201 field trip. Taken by me.
