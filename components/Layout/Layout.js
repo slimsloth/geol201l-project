@@ -8,8 +8,8 @@ const Layout = ({ children }) => {
       direction="column"
       backgroundColor="#161b22"
       color="white"
-      maxW="100vw"
-      w="-webkit-fit-content"
+      maxW="100%"
+      w="100vw"
     >
       <Nav />
       {children}
