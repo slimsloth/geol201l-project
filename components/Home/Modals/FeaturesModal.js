@@ -22,7 +22,7 @@ const FeaturesModal = ({ isOpen, onClose }) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose} size="4xl">
       <ModalOverlay />
-      <ModalContent bgColor="#0a0b0f" fontSize="xl" color="white">
+      <ModalContent bgColor="#0a0b0f" fontSize={["md", "xl"]} color="white">
         <ModalHeader>Yellowstone Features</ModalHeader>
         <ModalCloseButton />
         <ModalBody>
@@ -127,7 +127,12 @@ const FeaturesModal = ({ isOpen, onClose }) => {
           </Text>
         </ModalBody>
         <ModalFooter>
-          <Button bgColor="#0074e0" colorScheme="blue" onClick={onClose}>
+          <Button
+            bgColor="#0074e0"
+            colorScheme="blue"
+            onClick={onClose}
+            isFullWidth
+          >
             Close
           </Button>
         </ModalFooter>

@@ -1,5 +1,4 @@
 import { Flex, Heading, Text, Link, Spacer } from "@chakra-ui/react";
-import BannerCard from "./BannerCard";
 
 const Banner = () => {
   return (
@@ -44,20 +43,6 @@ const Banner = () => {
         </Link>
       </Flex>
       <Spacer />
-      {/* <Flex direction="column">
-        <Flex align="center">
-          <Heading textTransform="uppercase" fontSize="xl" mr="4">
-            Latest News &amp; Activities
-          </Heading>
-          <Link fontSize="xl">View all news</Link>
-        </Flex>
-        <Flex justify="space-between" pt="4">
-          <BannerCard imageSrc="/img/camping.webp" />
-          <BannerCard imageSrc="/img/hiking.jpg" />
-          <BannerCard imageSrc="/img/horseback.png" />
-          <BannerCard imageSrc="/img/rafting.jpg" />
-        </Flex>
-      </Flex> */}
     </Flex>
   );
 };

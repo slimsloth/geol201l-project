@@ -1,11 +1,10 @@
 import Head from "next/head";
 import { useState } from "react";
-import { Flex, Box } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Banner from "../components/Home/Banner/Banner";
 import Card from "../components/Home/Card/Card";
 import Row from "../components/Home/Row/Row";
 import BannerMobile from "../components/Home/Banner/BannerMobile";
-import BannerNewsMobile from "../components/Home/Banner/BannerNewsMobile";
 import FeaturesModal from "../components/Home/Modals/FeaturesModal";
 import GeothermalModal from "../components/Home/Modals/GeothermalModal";
 import WolvesModal from "../components/Home/Modals/WolvesModal";
@@ -30,7 +29,6 @@ export default function Home() {
       </Head>
       <Banner />
       <BannerMobile />
-      <BannerNewsMobile />
       <Flex wrap={["wrap", "nowrap"]}>
         <Card
           imageSource="/img/laura-seaman-6rs0BjK_vx0-unsplash.jpg"

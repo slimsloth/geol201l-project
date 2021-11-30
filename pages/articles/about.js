@@ -1,4 +1,4 @@
-import { Flex, Heading } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Head from "next/head";
 import References from "../../components/About/References";
 import Stack from "../../components/About/Stack";
@@ -9,9 +9,9 @@ const About = () => {
     <Flex
       direction="column"
       minH="100vh"
-      px={['5','10','10','72']}
+      px={["5", "10", "10", "72"]}
       py="12"
-      fontSize="xl"
+      fontSize={["md", "xl"]}
     >
       <Head>
         <title>Yellowstone | About</title>
