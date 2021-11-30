@@ -514,7 +514,7 @@ const Summary = () => {
         All of my references for my articles can be found below. Additionally,
         you can find the tech stack I used for this project. ALSO you can find
         the{" "}
-        <Link href="https://github.com/slimsloth" color="blue.200" isExternal>
+        <Link href="https://github.com/slimsloth/geol201l-project" color="blue.200" isExternal>
           link for the GitHub source code repository for this website here.
         </Link>{" "}
         I hope that you have learned something reading through this site,
