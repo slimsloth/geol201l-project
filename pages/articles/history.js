@@ -314,7 +314,7 @@ const LoremIpsum = () => {
           wildlife.
         </Text>
         <Image
-          src="/img/history/act.jpg"
+          src="/img/history/Act.jpg"
           objectFit="scale-down"
           w="100%"
           h="md"
