@@ -11,7 +11,7 @@ const BannerMobile = () => {
       pb="2"
       h="375px"
       w="100%"
-      bgImage={`linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50%),url(banner.jpg)`}
+      bgImage={`linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50%),url(./img/denys-nevozhai-LMU2w-K4J7k-unsplash.jpg)`}
       bgPosition="center"
       backgroundSize="cover"
       bgRepeat="no-repeat"
@@ -32,10 +32,8 @@ const BannerMobile = () => {
         color="gray.100"
         mb="5"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a accumsan
-        augue.
+        Learn about the first national park.
       </Text>
-      <Button colorScheme="blue">Explore Yellowstone</Button>
     </Flex>
   );
 };

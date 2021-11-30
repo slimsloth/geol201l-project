@@ -9,7 +9,13 @@ import "swiper/css/scrollbar";
 
 const LoremIpsum = () => {
   return (
-    <Flex minH="100vh" direction="column" maxW="100%" px="72" fontSize="xl">
+    <Flex
+      minH="100vh"
+      direction="column"
+      maxW="100%"
+      px={["5", "10", "10", "72"]}
+      fontSize="xl"
+    >
       <Flex direction="column" color="white" p="4">
         <Heading mt="14">The Yellowstone Super Volcano</Heading>
         <Flex py="8" align="center">
@@ -124,7 +130,8 @@ const LoremIpsum = () => {
           borderRadius="10px"
         />
         <Text textAlign="center" fontSize="sm" color="gray.300" mb="8">
-          Picture of Shoshone ash heaps from our GEOL 201 field trip. Taken by me.
+          Picture of Shoshone ash heaps from our GEOL 201 field trip. Taken by
+          me.
         </Text>
         <Text mb="8"></Text>
       </Flex>

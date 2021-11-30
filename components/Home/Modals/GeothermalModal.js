@@ -35,9 +35,9 @@ const GeothermalModal = ({ isOpen, onClose }) => {
             <SwiperSlide>
               <Box>
                 <Image
-                  alt="hi"
+                  alt="spring"
                   src="./img/geothermal_life/c-z-shi-3p8GeRGReUQ-unsplash.jpg"
-                  objectFit="cover"
+                  objectFit="scale-down"
                   w="100%"
                   h="md"
                 />
@@ -54,8 +54,9 @@ const GeothermalModal = ({ isOpen, onClose }) => {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                alt="hi"
+                alt="spring"
                 src="./img/geothermal_life/dan-meyers-jreYbcVNp4s-unsplash.jpg"
+                objectFit="scale-down"
                 w="100%"
                 h="md"
               />
@@ -71,8 +72,9 @@ const GeothermalModal = ({ isOpen, onClose }) => {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                alt="hi"
+                alt="more springs"
                 src="./img/geothermal_life/trevor-vannoy-l3p_3fynKo4-unsplash.jpg"
+                objectFit="scale-down"
                 w="100%"
                 h="md"
               />
@@ -88,8 +90,9 @@ const GeothermalModal = ({ isOpen, onClose }) => {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                alt="hi"
+                alt="dried up spring"
                 src="./img/geothermal_life/vicky-t-utEdsRqdqrw-unsplash.jpg"
+                objectFit="scale-down"
                 w="100%"
                 h="md"
               />

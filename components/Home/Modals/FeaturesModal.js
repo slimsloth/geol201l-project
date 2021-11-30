@@ -35,9 +35,9 @@ const FeaturesModal = ({ isOpen, onClose }) => {
             <SwiperSlide>
               <Box>
                 <Image
-                  alt="hi"
+                  alt="Spring"
                   src="./img/features/dan-meyers-zaXHqMItpcc-unsplash.jpg"
-                  objectFit="cover"
+                  objectFit="scale-down"
                   w="100%"
                   h="md"
                 />
@@ -54,8 +54,9 @@ const FeaturesModal = ({ isOpen, onClose }) => {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                alt="hi"
+                alt="River"
                 src="./img/features/austin-farrington-gp2QLJKOvVc-unsplash.jpg"
+                objectFit="scale-down"
                 w="100%"
                 h="md"
               />
@@ -71,8 +72,9 @@ const FeaturesModal = ({ isOpen, onClose }) => {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                alt="hi"
+                alt="River"
                 src="./img/features/brandon-green-z57NgfAK5eM-unsplash.jpg"
+                objectFit="scale-down"
                 w="100%"
                 h="md"
               />
@@ -88,8 +90,9 @@ const FeaturesModal = ({ isOpen, onClose }) => {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                alt="hi"
+                alt="Spring"
                 src="./img/features/joshua-earle-73TihzG37rk-unsplash.jpg"
+                objectFit="scale-down"
                 w="100%"
                 h="md"
               />

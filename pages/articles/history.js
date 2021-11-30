@@ -9,7 +9,13 @@ import "swiper/css/scrollbar";
 
 const LoremIpsum = () => {
   return (
-    <Flex minH="100vh" direction="column" maxW="100%" px="72" fontSize="xl">
+    <Flex
+      minH="100vh"
+      direction="column"
+      maxW="100%"
+      px={["5", "10", "10", "72"]}
+      fontSize="xl"
+    >
       <Flex direction="column" color="white" p="4">
         <Heading mt="14">History of Yellowstone Park</Heading>
         <Flex py="8" align="center">
