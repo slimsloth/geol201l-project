@@ -189,7 +189,7 @@ const LoremIpsum = () => {
         </Text>
 
         <Image
-          src="/img/history/LangfordYellowstoneLakeMap.jpg"
+          src="/img/history/LangfordYellowstoneLakeMap.JPG"
           objectFit="cover"
           w="lg"
           alt="Map of Yellowstone Lake by Langford Expedition"
