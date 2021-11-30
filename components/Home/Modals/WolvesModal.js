@@ -108,21 +108,21 @@ const WolvesModal = ({ isOpen, onClose }) => {
             </SwiperSlide>
           </Swiper>
           <Text mb="4">
-            Yellowstone is home to many different microscorpic organisms called
-            thermophiles. Thermophiles love to live in heat and thrive in hot
-            temperatures.
+            Gray wolves were announced as an endangered species in 1973 due to
+            extermination programs and loss of habitat. They were reintroduced
+            to the park in 1995. Gray wolves are highly social animals, and pack
+            oriented. They often work together as a team to deffend territory,
+            hunt any prey, or to protect their offspring. Gray wolves primarily
+            hunt elk and deer, on rarer occassions they may attack bison if they
+            are young or vulnerable.
           </Text>
           <Text mb="4">
-            Scientists in the 1800s often questioned the color of
-            Yellowstone&apos;s superheated environments. Some of these waters
-            have a disticnt pink, yellow or red colors in them. These colors are
-            often mistaken for deposits of purely mineral matter, when in fact
-            the color is usually caused by these thermophiles.
-          </Text>
-          <Text>
-            Thermophiles typically live in temperatures between 41 and 122
-            degrees. Humans are considered Mesophiles and live between 20 to 45
-            degrees.
+            Currently, the leading cause of death within the park is from other
+            gray wolves. This is usually over territory disputes, or even
+            competing over carcasses for food. Outside of the park, the leading
+            cause of death is from humans, usually from hunting. There has never
+            been a recorded incident where a gray wolf has attacked a human
+            inside the park.
           </Text>
         </ModalBody>
         <ModalFooter>

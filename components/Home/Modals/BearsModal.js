@@ -36,8 +36,8 @@ import {
                 <Box>
                   <Image
                     alt="hi"
-                    src="./img/geothermal_life/c-z-shi-3p8GeRGReUQ-unsplash.jpg"
-                    objectFit="cover"
+                    src="./img/black_bears/camerauthor-photos-Q041QL3f0A8-unsplash.jpg"
+                    objectFit="scale-down"
                     w="100%"
                     h="md"
                   />
@@ -48,14 +48,15 @@ import {
                     mb="8"
                     mt="2"
                   >
-                    Photo credit: Unsplash - C Z Shi
+                    Photo credit: Unsplash - Cameraauthor Photos
                   </Text>
                 </Box>
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   alt="hi"
-                  src="./img/geothermal_life/dan-meyers-jreYbcVNp4s-unsplash.jpg"
+                  src="./img/black_bears/danika-perkinson-x1P45iTcnys-unsplash.jpg"
+                  objectFit="scale-down"
                   w="100%"
                   h="md"
                 />
@@ -66,13 +67,14 @@ import {
                   mb="8"
                   mt="2"
                 >
-                  Photo credit: Unsplash - Austin Farrington
+                  Photo credit: Unsplash - Danika Perkinson
                 </Text>
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   alt="hi"
-                  src="./img/geothermal_life/trevor-vannoy-l3p_3fynKo4-unsplash.jpg"
+                  src="./img/black_bears/jack-charles-swcWpfjks1E-unsplash.jpg"
+                  objectFit="scale-down"
                   w="100%"
                   h="md"
                 />
@@ -83,13 +85,14 @@ import {
                   mb="8"
                   mt="2"
                 >
-                  Photo credit: Unsplash - Brandon Green
+                  Photo credit: Unsplash - Jack Charles
                 </Text>
               </SwiperSlide>
               <SwiperSlide>
                 <Image
                   alt="hi"
-                  src="./img/geothermal_life/vicky-t-utEdsRqdqrw-unsplash.jpg"
+                  src="./img/black_bears/stephanie-leblanc-55PvjmSfYAQ-unsplash.jpg"
+                  objectFit="scale-down"
                   w="100%"
                   h="md"
                 />
@@ -100,7 +103,7 @@ import {
                   mb="8"
                   mt="2"
                 >
-                  Photo credit: Unsplash - Joshua Earle
+                  Photo credit: Unsplash - Stephanie Leblanc
                 </Text>
               </SwiperSlide>
             </Swiper>
