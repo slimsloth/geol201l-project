@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { SiGoogleearth } from "react-icons/si";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import "@fontsource/lobster"
 
 const Nav = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -43,12 +44,14 @@ const Nav = () => {
         <LinkBox mr={[1, 2]}>
           <LinkOverlay href="/">
             <Flex align="center">
-              <Icon as={SiGoogleearth} mr={[2, 2]} color="#009ae4" />
+              <Icon as={SiGoogleearth} mr={[2, 2]} color="#009ae4" boxSize="20px"/>
               <Heading
-                size={["sm", "md"]}
+                size={["sm", "lg"]}
                 mr={[2, 8]}
                 color="#009ae4"
                 userSelect="none"
+                fontFamily="lobster"
+                fontSize="xl"
               >
                 Yellowstone Park
               </Heading>
@@ -70,7 +73,7 @@ const Nav = () => {
           <Link href="/articles/bison" mr={[1, 2]}>
             Bison
           </Link>
-          <Link href="/about" mr={[1, 2]}>
+          <Link href="/articles/about" mr={[1, 2]}>
             About
           </Link>
         </HStack>
@@ -82,10 +85,11 @@ const Nav = () => {
             align="stretch"
             justify="stretch"
           >
-            <Link href="/">Home</Link>
-            <Link href="/history">History</Link>
-            <Link href="/nature">Nature</Link>
-            <Link href="/about">About</Link>
+            <Link href="/articles/history">Park History</Link>
+            <Link href="/articles/old_faithful">Old Faithful</Link>
+            <Link href="/articles/caldera">Yellowstone Caldera</Link>
+            <Link href="/articles/bison">Bison</Link>
+            <Link href="/articles/about">About</Link>
           </VStack>
         </Flex>
       ) : (

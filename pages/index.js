@@ -8,11 +8,13 @@ import BannerMobile from "../components/Home/Banner/BannerMobile";
 import BannerNewsMobile from "../components/Home/Banner/BannerNewsMobile";
 import FeaturesModal from "../components/Home/Modals/FeaturesModal";
 import GeothermalModal from "../components/Home/Modals/GeothermalModal";
+import WolvesModal from "../components/Home/Modals/WolvesModal";
+import BearsModal from "../components/Home/Modals/BearsModal";
 
 export default function Home() {
   const [features, openFeatures] = useState(false);
   const [geothermal, openGeothermal] = useState(false);
-  const [cougars, openCougars] = useState(false);
+  const [wolves, openWolves] = useState(false);
   const [bears, openBears] = useState(false);
 
   return (
@@ -59,7 +61,7 @@ export default function Home() {
         rowHeight="480px"
         imageSource="/img/andrew-sterling-5nigV-Wh7xY-unsplash.jpg"
         contentPosition="center"
-        caption="The Yellowstone Super Volcano"
+        caption="Learn about the history of the park"
         header="Park History"
         buttonLink="/articles/history"
         buttonText="Read Article"
@@ -70,7 +72,7 @@ export default function Home() {
         contentPosition="center"
         caption="Plumbing of Old Faithful"
         header="Old Faithful"
-        buttonLink="/articles/loremipsum"
+        buttonLink="/articles/old_faithful"
         buttonText="Learn more"
       />
       <Row
@@ -79,7 +81,7 @@ export default function Home() {
         contentPosition="right"
         caption="Super Volcano"
         header="Yellowstone Caldera"
-        buttonLink="/articles/loremipsum"
+        buttonLink="/articles/caldera"
         buttonText="Learn more"
       />
       <Flex wrap={["wrap", "nowrap"]}>
@@ -88,12 +90,14 @@ export default function Home() {
           caption="Park Wildlife"
           header="Gray Wolves"
           text="Earthquakes in the park, and what they mean."
+          clickHandler={openWolves}
         />
         <Card
           imageSource="/img/noaa-8-EyvQ6y77A-unsplash.jpg"
           caption="Park Wildlife"
           header="Black Bears"
           text="Learn how to protect the geologic resources of a nature."
+          clickHandler={openBears}
         />
       </Flex>
       <Row
@@ -102,7 +106,7 @@ export default function Home() {
         contentPosition="right"
         caption="Park Wildlife"
         header="Bison"
-        buttonLink="/articles/loremipsum"
+        buttonLink="/articles/bison"
         buttonText="Learn more"
       />
       <Row
@@ -111,7 +115,7 @@ export default function Home() {
         contentPosition="left"
         caption="Inspiration and References"
         header="About This Website"
-        buttonLink="/about"
+        buttonLink="/articles/about"
         buttonText="Learn more"
       />
       <FeaturesModal isOpen={features} onClose={() => openFeatures(false)} />
@@ -119,6 +123,8 @@ export default function Home() {
         isOpen={geothermal}
         onClose={() => openGeothermal(false)}
       />
+      <WolvesModal isOpen={wolves} onClose={() => openWolves(false)} />
+      <BearsModal isOpen={bears} onClose={() => openBears(false)} />
     </Flex>
   );
 }
